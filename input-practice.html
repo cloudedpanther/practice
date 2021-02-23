@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>input practice</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <!-- Ask First Name -->
+      <div>
+        <label for="first-name">First name</label>
+        <input id="first-name" placeholder="First name" type="text" />
+      </div>
+
+      <!-- Ask Last Name -->
+      <div>
+        <label for="Last-name">Last name</label>
+        <input id="Last-name" placeholder="Last name" type="text" />
+      </div>
+
+      <!-- Ask Email -->
+      <div>
+        <label for="email">Email</label>
+        <input id="email" placeholder="Email" type="email" required="@" />
+      </div>
+
+      <!-- Ask Username -->
+      <div>
+        <label for="username">Username</label>
+        <input
+          id="username"
+          placeholder="Username"
+          type="text"
+          required="required"
+        />
+      </div>
+
+      <!-- Ask Password -->
+      <div>
+        <label for="password">Password</label>
+        <input
+          id="password"
+          placeholder="Password"
+          type="password"
+          required="required"
+          minlength="10"
+        />
+      </div>
+
+      <!-- Ask Birth date -->
+      <div>
+        <label for="birth-date">Birth date</label>
+        <input id="birth-date" type="date" required="required" minlength="10" />
+      </div>
+
+      <!-- Ask Happiness -->
+      <div>
+        <label for="happiness">How happy are you?</label>
+        <input id="happiness" type="range" list="happiness-value" />
+        <datalist id="happiness-value">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+
+      <!-- Ask Fovorite Color -->
+      <div>
+        <label for="fav-color">What is your fav. color?</label>
+        <input id="fav-color" type="color" />
+      </div>
+
+      <!-- Create Account -->
+      <div>
+        <input type="submit" value="Create Account" />
+      </div>
+    </form>
+  </body>
+</html>
