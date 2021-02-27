@@ -1,0 +1,12 @@
+.title-bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.title-bar i {
+  position: absolute;
+  left: 5px;
+}

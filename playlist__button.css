@@ -1,0 +1,26 @@
+.button-row {
+  display: flex;
+  justify-content: space-between;
+}
+.button-row button {
+  font-size: 20px;
+  background-color: white;
+  border: 3px solid black;
+  border-bottom-width: 8px;
+}
+.button__play {
+  padding: 15px 40px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.button__play i {
+  margin-right: 5px;
+}
+.button__play span {
+  font-weight: 700;
+}
+.button__like,
+.button__add-to-list {
+  padding: 15px;
+  border-radius: 50%;
+}

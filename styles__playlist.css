@@ -1,0 +1,14 @@
+@import "playlist__title-bar.css";
+@import "playlist__music.css";
+@import "playlist__button.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  border: 5px solid #00c6ad;
+  width: 350px;
+}
+.wrap {
+  margin: 40px 20px;
+}
