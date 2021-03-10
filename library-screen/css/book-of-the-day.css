@@ -1,0 +1,69 @@
+.book-of-the-day {
+  margin-bottom: 26px;
+}
+.article-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.book-of-the-day__container {
+  display: flex;
+  height: 160px;
+}
+.book-of-the-day__container img {
+  width: 100px;
+  height: 155px;
+  border-radius: 7px;
+  margin-right: 14px;
+}
+.book-of-the-day__description {
+  width: 180px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.book-title {
+  font-weight: 700;
+}
+.book-text {
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.2;
+}
+.book-of-the-day__description .stars {
+  font-size: 10px;
+}
+.book-btns {
+  display: flex;
+}
+.book-btns:last-child {
+  justify-content: space-between;
+}
+.book-btns button {
+  border: none;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+.book-btns button:first-child {
+  margin-right: 10px;
+}
+.book-btns .btn-bookmark {
+  background-color: #FFCE33;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.book-btns .btn-book-now {
+  padding: 12px 24px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: black;
+  color: white;
+}

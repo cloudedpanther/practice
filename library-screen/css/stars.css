@@ -1,0 +1,10 @@
+.stars {
+  display: flex;
+}
+.stars .fa-star {
+  color: #FFCE33;
+  margin-right: 5px;
+}
+.stars .fa-star:last-child {
+  color: rgba(0, 0, 0, 0.2);
+}

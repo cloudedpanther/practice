@@ -1,0 +1,23 @@
+.top-adventures {
+  margin-bottom: 18px;
+}
+.top-adventures__list {
+  display: flex;
+}
+.top-adventures__book {
+  display: flex;
+  flex-direction: column;
+  margin-right: 22px;
+}
+.top-adventures__book img {
+  width: 70px;
+  height: 104px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.top-adventures__book .stars {
+  font-size: 6px;
+}
+.top-adventures .stars .fa-star {
+  margin-right: 3px;
+}

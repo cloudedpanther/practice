@@ -1,0 +1,19 @@
+.popular-authors__container {
+  display: flex;
+}
+.popular-authors__container img {
+  width: 100px;
+  height: 128px;
+  border-radius: 10px;
+  margin-right: 22px;
+}
+.author-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.author-text {
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.2;
+}
