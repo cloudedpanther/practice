@@ -4,22 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Modal Screen Effect</title>
   </head>
   <body>
-    <button class="btn">Click This!</button>
+    <button class="btn js-btn">Click This!</button>
 
-    <div class="modal-container">
-      <div class="modal-screen">
-        <div class="modal-screen__top-menu">
-          <span class="modal-screen__close-btn">X</span>
+    <div class="modal-container js-modal-container hidden">
+      <div class="modal-screen js-modal-screen">
+        <div class="modal-screen__top-menu js-modal-screen__top-menu">
+          <span class="modal-screen__close-btn js-modal-screen__close-btn"
+            >X</span
+          >
         </div>
 
-        <p class="modal-screen__text">
-          Hello, My Friend! This is modal pop-up. Please click the button 'X' if
-          you want to close this screen.
-        </p>
+        <div class="modal-screen__text-container">
+          <p class="modal-screen__text">
+            Hello, My Friend! This is modal pop-up.
+          </p>
+          <p class="modal-screen__text">
+            Please click the button 'X' if you want to close this screen.
+          </p>
+          <p class="modal-screen__text">
+            Even though there's nothing more that I want to say, I have to say
+            something.
+          </p>
+          <p class="modal-screen__text">
+            I want to see how the screen looks when it has enough length of
+            words.
+          </p>
+        </div>
       </div>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

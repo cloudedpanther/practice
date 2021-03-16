@@ -1,0 +1,44 @@
+.modal-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-screen {
+    width: 30%;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.modal-screen__top-menu {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+.modal-screen__close-btn:hover,
+.btn:hover {
+    cursor: pointer;
+}
+.modal-screen__text-container {
+    width: 95%;
+    padding: 0px 10px;    
+}
+.modal-screen__text:nth-child(odd){
+    color: teal;
+}
+.modal-screen__text:nth-child(even){
+    color: tomato;
+}
+
+.hidden {
+    display: none;
+}
