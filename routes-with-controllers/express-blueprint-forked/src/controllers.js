@@ -1,0 +1,12 @@
+export const home = (req, res) => res.send("Home");
+export const join = (req, res) => res.send("Join");
+export const login = (req, res) => res.send("Log In");
+export const confirmAccount = (req, res) => res.send("Confirm Account");
+export const courses = (req, res) => res.send("Courses");
+export const coursesNew = (req, res) => res.send("New Courses");
+export const coursesMine = (req, res) => res.send("My Courses");
+export const apiDocumentation = (req, res) => res.send("API Documentation");
+export const v1Buy = (req, res) => res.send("Buy");
+export const v1Refund = (req, res) => res.send("Refund");
+export const v2Remove = (req, res) => res.send("Remove");
+export const v2Edit = (req, res) => res.send("Edit");
