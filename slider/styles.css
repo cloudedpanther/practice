@@ -13,42 +13,40 @@
   align-items: center;
 }
 .slider-main {
-  width: 50%;
+  width: 50vw;
   height: 100%;
-  border: 1px solid indigo;
   display: flex;
+  border: 3px solid black;
 }
 .slide-shifter {
-  width: 5%;
+  width: 2.5vw;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid teal;
 }
 .slider-screen {
-  width: 100%;
+  width: 45vw;
   height: 100%;
-  border: 1px solid tomato;
   position: relative;
   overflow: hidden;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
 }
 .slider {
-  width: 500%;
+  width: 225vw;
   height: 100%;
   display: flex;
   position: absolute;
 }
 .slider__slide {
-  width: 100%;
+  width: 45vw;
   height: 100%;
-  background-color: chocolate;
-  border: 1px solid purple;
+  background-color: burlywood;
 }
 .slide-picker {
   width: 50%;
   height: 10%;
-  border: 1px solid tomato;
   display: flex;
   justify-content: space-between;
   align-items: center;
