@@ -45,7 +45,7 @@
   background-color: burlywood;
 }
 .slide-picker {
-  width: 50%;
+  width: 50vw;
   height: 10%;
   display: flex;
   justify-content: space-between;
