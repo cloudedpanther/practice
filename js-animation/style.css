@@ -1,0 +1,22 @@
+.hero {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  border: 4px solid teal;
+  position: absolute;
+  left: 30px;
+  top: 100px;
+  z-index: 1;
+}
+button {
+  z-index: 11;
+}
+.button-container {
+  margin-top: 500px;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  margin-right: 50px;
+}
