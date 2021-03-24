@@ -1,3 +1,35 @@
+@keyframes move-left {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
+@keyframes move-right {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+@keyframes move-up {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}
+@keyframes move-down {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}
 .hero {
   width: 30px;
   height: 30px;
@@ -9,14 +41,24 @@
   top: 100px;
   z-index: 1;
 }
+.animation__move-left {
+  animation: move-left 0.1s linear forwards;
+}
+.animation__move-right {
+  animation: move-right 0.1s linear forwards;
+}
+.animation__move-up {
+  animation: move-up 0.1s linear forwards;
+}
+.animation__move-down {
+  animation: move-down 0.1s linear forwards;
+}
 button {
   z-index: 11;
+  margin-right: 50px;
 }
 .button-container {
   margin-top: 500px;
   display: flex;
   justify-content: center;
-}
-.left {
-  margin-right: 50px;
 }
