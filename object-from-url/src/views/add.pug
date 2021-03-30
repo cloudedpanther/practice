@@ -1,0 +1,9 @@
+extends templates/layout
+
+block content
+  h1= pageTitle
+  form.add-movie__form(action="/add", method="post")
+    input(type="text", name="movieTitle", placeholder="Title")
+    textArea(name="movieSynopsis", placeholder="Synopsis")
+    input(type="text", name="movieGenres", placeholder="Genres")
+    input(type="submit", value="Add Movie")
