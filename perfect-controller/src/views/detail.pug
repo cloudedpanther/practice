@@ -1,0 +1,10 @@
+extends layouts/main
+include mixins/movieDetailBlock
+
+block content
+  p.summary= thisMovie.summary
+  ul.genres
+    each item in thisMovie.genres
+      +movieDetailBlock({
+        genre: item
+      })

@@ -1,0 +1,3 @@
+mixin movieBlock(movie={})
+  li.movies__movie
+    a(href=routes.detail(movie.id))= movie.title
