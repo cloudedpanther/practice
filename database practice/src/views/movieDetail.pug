@@ -1,0 +1,10 @@
+extends layouts/main
+
+block content
+  .movieDetail
+    p= movie.synopsis
+    ul.genreList
+      each genre in movie.genres
+        li.genreList__genre
+          span= genre
+    a(href=`/${movie.id}/edit`) Edit
